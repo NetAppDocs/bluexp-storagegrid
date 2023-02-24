@@ -26,11 +26,11 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html[
 
 .Steps
 
-. From the navigation menu, select *Storage > Canvas*.
+. From the BlueXP navigation menu, select *Storage > Canvas*.
 
 . Click *Add Working Environment* and select *On-Premises*.
 
-. Select *StorageGRID* and click *Next*.
+. Next to *StorageGRID*, select *Discover*.
 
 . If you're prompted, create a Connector.
 +
