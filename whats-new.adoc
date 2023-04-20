@@ -13,7 +13,7 @@ summary: Learn what's new with managing StorageGRID systems in BlueXP.
 :imagesdir: ./media/
 
 [.lead]
-Learn what's new with managing StorageGRID systems in BlueXP (formerly Cloud Manager).
+Learn what's new with managing StorageGRID systems in BlueXP.
 
 // tag::whats-new[]
 == 18 September 2022
