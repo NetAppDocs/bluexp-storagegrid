@@ -25,4 +25,4 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-pr
 +
 To get started, go to the BlueXP canvas and drag and drop the source working environment on the target working environment. StorageGRID can be either the source or target.
 +
-https://docs.netapp.com/us-en/cloud-manager-sync/index.html[Learn more about Cloud Sync^]
+https://docs.netapp.com/us-en/cloud-manager-sync/index.html[Learn more about BlueXP copy and sync^]
