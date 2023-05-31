@@ -18,7 +18,7 @@ BlueXP can discover the StorageGRID systems in your on-premises environment. Add
 
 * A Connector installed in a cloud provider or on your premises, with network connectivity to the StorageGRID system.
 +
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html[Learn more about Connectors and how to create one^]
+https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html[Learn more about Connectors and how to create one^]
 
 * The domain name or IP address of the admin node.
 
