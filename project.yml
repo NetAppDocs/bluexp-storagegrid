@@ -21,7 +21,7 @@ sidebar:
       entries:
         - title: View your StorageGRID systems
           url: /task-view-storagegrid.html
-        - title: Administer StorageGRID using the Advanced View
+        - title: Administer StorageGRID using the advanced view
           url: task-administer-storagegrid.html
         - title: Use NetApp data services with StorageGRID
           url: /task-enable-data-services.html
@@ -49,7 +49,7 @@ homepage:
       links:
         - title: View your StorageGRID systems
           url: task-view-storagegrid.html
-        - title: Administer StorageGRID using the Advanced View
+        - title: Administer StorageGRID using the advanced view
           url: task-administer-storagegrid.html
         - title: Use NetApp data services with StorageGRID
           url: task-enable-data-services.html

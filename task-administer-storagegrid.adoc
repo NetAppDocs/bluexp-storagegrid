@@ -5,7 +5,7 @@ keywords: grid manager, advanced view, standard view, use grid manager, gridmana
 summary: If you need to perform advanced management of a StorageGRID system, you can do so using Grid Manager, which is available in BlueXP from the StorageGRID working environment.
 ---
 
-= Administer StorageGRID using the Advanced View
+= Administer StorageGRID using the advanced view
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,11 +13,11 @@ summary: If you need to perform advanced management of a StorageGRID system, you
 :imagesdir: ./media/
 
 [.lead]
-If you need to perform advanced management of a StorageGRID system, you can do so using Grid Manager, which is available in BlueXP from the StorageGRID working environment.
+Administer a StorageGRID system from BlueXP by using the advanced view. This view enables you to use Grid Manager from within the StorageGRID working environment.
 
 == Supported configurations
 
-Advanced management through Grid Manager is supported with StorageGRID 11.7 and later.
+Grid Manager is available in BlueXP with StorageGRID 11.7 and later.
 
 == Limitations
 
@@ -50,7 +50,9 @@ NOTE: BlueXP doesn't currently support the Tenant Manager. Although you can crea
 * Traffic classification > Metrics
 * Security settings > Browser inactivity timeout
 * Single sign-on 
-* SNMP agent > you can't download the MIB file for appliances with a BMC interface
+* SNMP agent
++
+You can't download the MIB file for appliances with a BMC interface.
 * Storage options
 
 | Maintenance
@@ -71,15 +73,15 @@ NOTE: BlueXP doesn't currently support the Tenant Manager. Although you can crea
 
 |===
 
-== Use the Advanced View (Grid Manager)
+== Switch to the advanced view
 
-Open a StorageGRID working environment and click the Advanced View option.
+Open a StorageGRID working environment and select the advanced view option.
 
 .Steps
 
 . On the Canvas page, double-click the name of a StorageGRID working environment.
 
-. In the top-right, click *Switch to Advanced View*.
+. In the top-right, select *Switch to Advanced View*.
 +
 image:screenshot-advanced-view.png[A screenshot of a StorageGRID working environment that shows the Switch to Advanced View option.]
 
@@ -89,7 +91,7 @@ One difference that you should be aware of is that the Help menu in Grid Manager
 +
 image:advanced-view-menu.png[A screenshot of a StorageGRID working environment where an action menu is available from the top right of the screen.]
 +
-All options are available from this menu, except for the API documentation link.
+All of the same help options are available from this menu, except for the API documentation link.
 
 . If needed, click *Switch to standard view* to return to standard management through BlueXP.
 +
@@ -97,4 +99,4 @@ image:screenshot-standard-view.png[A screenshot of a StorageGRID working environ
 
 == Get help with Grid Manager
 
-If you need help using Grid Manager, you can refer to https://docs.netapp.com/us-en/storagegrid-117/admin/index.html[StorageGRID documentation^] for step-by-step instructions.
+If you need help using Grid Manager, refer to https://docs.netapp.com/us-en/storagegrid-117/admin/index.html[StorageGRID documentation^] for step-by-step instructions.

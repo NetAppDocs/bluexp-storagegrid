@@ -18,11 +18,11 @@ Learn what's new with managing StorageGRID systems in BlueXP.
 // tag::whats-new[]
 == 4 June 2023
 
-=== New Advanced View
+=== New advanced view
 
-Grid Manager is now integrated with BlueXP. When you manage your StorageGRID system from BlueXP, you can use the familiar Grid Manager interface and BlueXP services that provide data mobility and data protection.
+Grid Manager is now available in BlueXP starting with StorageGRID 11.7. When you manage your StorageGRID system from BlueXP, you can use the familiar Grid Manager interface and BlueXP services that provide data mobility and data protection.
 
-
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-administer-storagegrid.html[Learn how to administer StorageGRID using the advanced view].
 
 == 18 September 2022
 
