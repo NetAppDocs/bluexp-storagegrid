@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: task-discover-storagegrid.html
 keywords: storagegrid, cluster, discover, manage, discovering, discover storagegrid
-summary: BlueXP can discover the StorageGRID systems in your on-premises environment. Adding StorageGRID clusters to BlueXP enables you to get a complete view of the data across your hybrid multicloud.
+summary: Discover the StorageGRID systems in your on-premises environment and then manage them directly from BlueXP using Grid Manager.
 ---
 
 = Discover StorageGRID systems
@@ -12,7 +12,8 @@ summary: BlueXP can discover the StorageGRID systems in your on-premises environ
 :linkattrs:
 :imagesdir: ./media/
 
-BlueXP can discover the StorageGRID systems in your on-premises environment. Adding StorageGRID systems to BlueXP enables you to get a complete view of the data across your hybrid multicloud.
+[.lead]
+Discover the StorageGRID systems in your on-premises environment and then manage them directly from BlueXP using Grid Manager.
 
 .What you'll need
 
