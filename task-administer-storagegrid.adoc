@@ -50,10 +50,7 @@ NOTE: BlueXP doesn't currently support the Tenant Manager. Although you can crea
 * Traffic classification > Metrics
 * Security settings > Browser inactivity timeout
 * Single sign-on 
-* SNMP agent
-+
-You can't download the MIB file for appliances with a BMC interface.
-* Storage options
+* SNMP agent > MIB file for BMC interface
 
 | Maintenance
 
