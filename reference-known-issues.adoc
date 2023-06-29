@@ -5,7 +5,7 @@ keywords: issues, known issues, bugs, errors
 summary: Known issues identify problems that might prevent you from using this release of the product successfully.
 ---
 
-= Known limitations
+= Known issues
 :hardbreaks:
 :nofooter:
 :icons: font

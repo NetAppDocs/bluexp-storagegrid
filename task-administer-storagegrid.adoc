@@ -36,12 +36,12 @@ The following Grid Manager operations are not available from BlueXP. If you need
 | Nodes
 | 
 * You can't access SANtricity System Manager from the Nodes > SANtricity System Manager tab. 
-* When viewing current alerts from the Alerts, you might not be able to select all links in the recommended actions. For example, links that go to unsupported Grid Manager pages will not work.
+* When viewing alerts, you might not be able to select all links in the recommended actions. For example, links that go to unsupported Grid Manager pages will not work.
 
 | Tenants
 | You can't sign in to a tenant account from the Create a tenant wizard or from the Tenants page.
 
-NOTE: BlueXP doesn't currently support the Tenant Manager. Although you can create new tenant accounts from BlueXP, tenant users can't sign into their accounts from BlueXP.
+BlueXP doesn't currently support the Tenant Manager. Although you can create new tenant accounts from BlueXP, tenant users can't sign into their accounts from BlueXP.
 
 | ILM
 | Storage grades link
