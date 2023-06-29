@@ -12,7 +12,11 @@ sidebar:
     - title: StorageGRID docs
       url: /index.html
     - title: Release notes
-      url: /whats-new.html
+      entries:
+        - title: What's new 
+          url: /whats-new.html
+        - title: Known issues
+          url: /reference-known-issues.html
     - title: Get started
       entries:
         - title: Discover your StorageGRID systems

@@ -16,7 +16,7 @@ summary: Learn what's new with managing StorageGRID systems in BlueXP.
 Learn what's new with managing StorageGRID systems in BlueXP.
 
 // tag::whats-new[]
-== 4 June 2023
+== 3 July 2023
 
 === New advanced view
 

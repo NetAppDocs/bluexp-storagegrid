@@ -34,7 +34,9 @@ The following Grid Manager operations are not available from BlueXP. If you need
 * API documentation link
 
 | Nodes
-| You can't access SANtricity System Manager from the Nodes > SANtricity System Manager tab. 
+| 
+* You can't access SANtricity System Manager from the Nodes > SANtricity System Manager tab. 
+* When viewing current alerts from the Alerts, you might not be able to select all links in the recommended actions. For example, links that go to unsupported Grid Manager pages will not work.
 
 | Tenants
 | You can't sign in to a tenant account from the Create a tenant wizard or from the Tenants page.
