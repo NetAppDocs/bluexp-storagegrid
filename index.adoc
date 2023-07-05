@@ -6,7 +6,7 @@ lead: Discover your StorageGRID systems through BlueXP to get a complete view of
 summary: "Discover your StorageGRID systems through BlueXP to get a complete view of data across your hybrid multicloud."
 ---
 
-= StorageGRID documentation
+= StorageGRID management using BlueXP
 :hardbreaks:
 :nofooter:
 :icons: font
