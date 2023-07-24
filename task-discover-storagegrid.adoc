@@ -28,7 +28,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html[Learn m
 
 . From the BlueXP navigation menu, select *Storage > Canvas*.
 
-. Click *Add Working Environment* and select *On-Premises*.
+. Select *Add Working Environment* and select *On-Premises*.
 
 . Next to *StorageGRID*, select *Discover*.
 
@@ -36,7 +36,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html[Learn m
 +
 Refer to the link above for more details.
 
-. On the _StorageGRID Cluster Details_ page, enter the domain name or IP address of the admin node, the credentials for the node, and then click *Add*.
+. On the _StorageGRID Cluster Details_ page, enter the domain name or IP address of the admin node, the credentials for the node, and then select *Add*.
 +
 image:screenshot-cluster-details.png[A screenshot that shows the StorageGRID Cluster Details page where you enter the domain name or IP address of the admin node and the credentials.]
 

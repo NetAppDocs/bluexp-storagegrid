@@ -19,10 +19,12 @@ Removing the working environment doesn't affect the StorageGRID system. You can 
 
 .Steps
 
-. From the Canvas, double-click the name of the StorageGRID working environment.
+. From the navigation menu, select *Storage > Canvas*.
 
-. Click the menu icon and select *Remove from Workspace*.
+. On the Canvas page, select the StorageGRID working environment.
+
+. Select the menu icon and select *Remove from Workspace*.
 +
 image:screenshot-remove.png[A screenshot of the Remove from Workspace option that is available in the top right menu of the working environment.]
 
-. Click *Remove* to confirm.
+. Select *Remove* to confirm.
