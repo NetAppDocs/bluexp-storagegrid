@@ -16,7 +16,9 @@ After you discover your StorageGRID systems, you can view details about capacity
 
 .Steps
 
-. From the Canvas, double-click the name of the StorageGRID working environment that you want to view.
+. From the navigation menu, select *Storage > Canvas*.
+
+. On the Canvas page, select the StorageGRID working environment that you want to view.
 
 . Select any of the tabs to view more details about your StorageGRID system:
 +
