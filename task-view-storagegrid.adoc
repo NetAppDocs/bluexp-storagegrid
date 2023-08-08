@@ -12,6 +12,7 @@ summary: After you discover your StorageGRID systems, you can view details about
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
 After you discover your StorageGRID systems, you can view details about capacity distribution and the associated alerts, nodes, and tenants.
 
 .Steps
