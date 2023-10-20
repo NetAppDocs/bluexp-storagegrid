@@ -5,7 +5,7 @@ keywords: storagegrid, cluster, remove, delete, remove storagegrid, delete clust
 summary: Remove a StorageGRID working environment if you no longer want to manage it from BlueXP.
 ---
 
-= Remove an StorageGRID working environment
+= Remove a StorageGRID working environment
 :hardbreaks:
 :nofooter:
 :icons: font
