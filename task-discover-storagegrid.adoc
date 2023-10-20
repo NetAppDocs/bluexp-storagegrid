@@ -15,7 +15,9 @@ summary: BlueXP can discover the StorageGRID systems in your on-premises environ
 [.lead]
 BlueXP can discover the StorageGRID systems in your on-premises environment. Adding StorageGRID systems to BlueXP enables you to get a complete view of the data across your hybrid multicloud.
 
-.What you'll need
+.Before you begin
+
+You need the following:
 
 * A Connector installed in a cloud provider or on your premises, with network connectivity to the StorageGRID system.
 +
