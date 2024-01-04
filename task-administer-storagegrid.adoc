@@ -98,4 +98,4 @@ image:screenshot-standard-view.png[A screenshot of a StorageGRID working environ
 
 == Get help with Grid Manager
 
-If you need help using Grid Manager, refer to https://docs.netapp.com/us-en/storagegrid-117/admin/index.html[StorageGRID documentation^] for step-by-step instructions.
+If you need help using Grid Manager, refer to https://docs.netapp.com/us-en/storagegrid-118/admin/index.html[StorageGRID documentation^] for step-by-step instructions.
