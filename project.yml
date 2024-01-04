@@ -5,8 +5,7 @@ settings:
     pdf_enabled: true
   prod:
     pdf_enabled: true
-    # Remove this comment and uncomment the harmony_enabled line immediately before initial publishing
-    # harmony_enabled: true
+    harmony_enabled: true
 sidebar:
   entries:
     - title: StorageGRID docs
@@ -19,7 +18,7 @@ sidebar:
           url: /reference-known-issues.html
     - title: Get started
       entries:
-        - title: Discover your StorageGRID systems
+        - title: Discover StorageGRID systems
           url: /task-discover-storagegrid.html
     - title: Manage StorageGRID systems
       entries:
@@ -29,7 +28,7 @@ sidebar:
           url: task-administer-storagegrid.html
         - title: Use NetApp data services with StorageGRID
           url: /task-enable-data-services.html
-        - title: Remove StorageGRID systems
+        - title: Remove a working environment
           url: /task-remove-storagegrid.html
     - title: Knowledge and support
       entries:
@@ -42,7 +41,6 @@ sidebar:
 product-family:
   name: BlueXP
   repo: bluexp-family
-  sidebar_label: All BlueXP documentation
 homepage:
   tiles:
     - title: Get started
