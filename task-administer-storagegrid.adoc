@@ -78,7 +78,7 @@ Open a StorageGRID working environment and select the advanced view option.
 
 .Steps
 
-. On the Canvas page, double-click the name of a StorageGRID working environment.
+. From the Canvas page, open the StorageGRID working environment.
 
 . In the top-right, select *Switch to Advanced View*.
 +
@@ -92,7 +92,7 @@ image:advanced-view-menu.png[A screenshot of a StorageGRID working environment w
 +
 All of the same help options are available from this menu, except for the API documentation link.
 
-. If needed, click *Switch to standard view* to return to standard management through BlueXP.
+. If needed, select *Switch to standard view* to return to standard management through BlueXP.
 +
 image:screenshot-standard-view.png[A screenshot of a StorageGRID working environment that shows the Switch to Standard View option.]
 
