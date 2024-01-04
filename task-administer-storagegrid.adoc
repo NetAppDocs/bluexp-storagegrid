@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: task-administer-storagegrid.html
 keywords: grid manager, advanced view, standard view, use grid manager, gridmanager
-summary: If you need to perform advanced management of a StorageGRID system, you can do so using Grid Manager, which is available in BlueXP from the StorageGRID working environment.
+summary: Administer a StorageGRID system from BlueXP by using the advanced view. This view enables you to use Grid Manager from within the StorageGRID working environment.
 ---
 
 = Administer StorageGRID using the advanced view
@@ -17,7 +17,7 @@ Administer a StorageGRID system from BlueXP by using the advanced view. This vie
 
 == Supported configurations
 
-Grid Manager is available in BlueXP with StorageGRID 11.7 and later.
+Grid Manager is available in BlueXP starting with StorageGRID 11.8.
 
 == Limitations
 
