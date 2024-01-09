@@ -26,12 +26,3 @@ When using the advanced view, filtering the contents of the Alerts page results 
 == Error when editing grid federation connection
 
 When using the advanced view, you might encounter a gateway timeout error when editing a grid federation connection.
-
-== Error after page reload
-
-If a page reloads when using the advanced view, the page might fail to reload and an error displays in BlueXP. You might encounter this issue in the following scenarios:
-
-* You manually reload a page from your web browser.
-* Grid Manager automatically reloads a page, which can happen when you update a management certificate or rename the grid.
-
-If you experience this issue, you'll need to manually re-enter the working environment from the canvas and select the advanced view again.
