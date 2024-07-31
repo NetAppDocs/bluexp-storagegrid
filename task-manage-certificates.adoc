@@ -1,0 +1,30 @@
+---
+sidebar: sidebar
+permalink: task-manage-certificates.html
+keywords: storagegrid, certificate, manage, manage interface certificate, refresh certificate, update certificate
+summary: Remove a StorageGRID working environment if you no longer want to manage it from BlueXP.
+---
+
+= Remove a StorageGRID working environment
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Remove a StorageGRID working environment if you no longer want to manage it from BlueXP.
+
+Removing the working environment doesn't affect the StorageGRID system. You can rediscover it from BlueXP at any time.
+
+.Steps
+
+. From the navigation menu, select *Storage > Canvas*.
+
+. On the Canvas page, select the StorageGRID working environment.
+
+. From the standard view, select the menu icon and select *Remove from Workspace*.
++
+image:screenshot-remove.png[A screenshot of the Remove from Workspace option that is available in the top right menu of the working environment.]
+
+. Select *Remove* to confirm.

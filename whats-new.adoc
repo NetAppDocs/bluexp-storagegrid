@@ -24,6 +24,12 @@ Grid Manager is now available in BlueXP starting with StorageGRID 11.8. When you
 
 https://docs.netapp.com/us-en/bluexp-storagegrid/task-administer-storagegrid.html[Learn how to administer StorageGRID using the advanced view].
 
+=== Ability to review and approve StorageGRID management interface certificate
+
+When first connecting to a StorageGRID system using BlueXP, you now have the ability to review and approve the existing StorageGRID management interface certificate or use a different one. 
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-discover-storagegrid.html[Learn how to review and aopprove the server certificate during system discovery.]
+
 == 18 September 2022
 
 === Support for StorageGRID
