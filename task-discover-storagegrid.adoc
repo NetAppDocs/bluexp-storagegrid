@@ -50,18 +50,16 @@ image:screenshot-cluster-details.png[A screenshot that shows the StorageGRID Clu
 +
 image:screenshot-bluexp-approve-certificate.png[A screenshot that shows the Approve Certificate screen that appears during discovery of a StorageGRID system]
 
-. If you want to use a different certificate than the one displayed, you must first configure it on your StorageGRID system. Then, return to the workflow within BlueXP to accept the certificate.
+. If you want to use a different certificate than the one displayed, you must first configure it on your StorageGRID system. Then, return to the workflow within BlueXP to accept the certificate. See https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate[Installing a management interface certificate on StorageGRID].
 
 . Optionally, select *Copy Certificate* to copy the details of the certificate. You can use the certificate details to perform additional validation if desired.
-//what if there is no certificate?
-// what if you select cancel
-//server certificate or server security certificate or CA certificate or management certificate.
+
 . Do one of the following: 
 .. Select *Accept Certificate* to use the certificate. 
 +
 A success message appears. All communication between the StorageGRID server and BlueXP will use the approved certificate. 
 
-.. Select *Cancel* to end the discovery process without verifying the certificate. You can select *Cancel* if you receive an error message notifying you that the StorageGRID management certificate needs to be updated. To update a certificate, see 
+.. Select *Cancel* to end the discovery process without verifying the certificate. For example, you can select *Cancel* if you receive an error message notifying you that the StorageGRID management certificate needs to be updated. To update a certificate, see 
 https://docs.netapp.com/us-en/bluexp-storagegrid/task-manage-certificates.html[Manage certificates^].
 
 .Result
