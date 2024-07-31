@@ -5,7 +5,7 @@ keywords: storagegrid, certificate, manage, manage interface certificate, refres
 summary: Remove a StorageGRID working environment if you no longer want to manage it from BlueXP.
 ---
 
-= Manage certificates
+= Manage certificates in BlueXP
 :hardbreaks:
 :nofooter:
 :icons: font
