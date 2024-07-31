@@ -5,7 +5,7 @@ keywords: storagegrid, certificate, manage, manage interface certificate, refres
 summary: Remove a StorageGRID working environment if you no longer want to manage it from BlueXP.
 ---
 
-= Remove a StorageGRID working environment
+= Manage certificates
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,18 +13,25 @@ summary: Remove a StorageGRID working environment if you no longer want to manag
 :imagesdir: ./media/
 
 [.lead]
-Remove a StorageGRID working environment if you no longer want to manage it from BlueXP.
+Management Interface certificates are required for connection between BlueXP and StorageGRID. Since certificates can expire, you occasionally might need to view or update a certificate.
 
-Removing the working environment doesn't affect the StorageGRID system. You can rediscover it from BlueXP at any time.
-
+== View the management inferface certificate
 .Steps
 
 . From the navigation menu, select *Storage > Canvas*.
 
 . On the Canvas page, select the StorageGRID working environment.
 
-. From the standard view, select the menu icon and select *Remove from Workspace*.
+. From the standard view, check the certificate status at the bottom of the _Information_ pane on the right side of the page. 
 +
-image:screenshot-remove.png[A screenshot of the Remove from Workspace option that is available in the top right menu of the working environment.]
+image:screenshot-standard-view-information.png[A screenshot of the of the Information pane in the working environment.]
+//what will it say if it is not valid? 
 
-. Select *Remove* to confirm.
+== Update the management interface certificate
+.Steps
+
+If the status of your management interface certificate is not valid, you will need to update it so BlueXP can connect to StorageGRID. You cannot update the certificate from within BlueXP. 
+
+. Go to your on-premises Grid Manager in StorageGRID and follow the instructions for https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate[Installing a management interface certificate on StorageGRID].
+
+. In BlueXP, follow the instructions to link:../task-discover-storagegrid.html[Discover StorageGRID]. 
