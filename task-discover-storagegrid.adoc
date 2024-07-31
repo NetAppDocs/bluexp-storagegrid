@@ -29,7 +29,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html[Learn m
 
 * A management interface certificate installed on your StorageGRID system. 
 +
-https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate[Learn more about installing a management interface certificate on StorageGRID]
+https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate[Learn more about installing a management interface certificate on StorageGRID^]
 .Steps
 
 . From the BlueXP navigation menu, select *Storage > Canvas*.
@@ -61,7 +61,8 @@ image:screenshot-bluexp-approve-certificate.png[A screenshot that shows the Appr
 +
 A success message appears. All communication between the StorageGRID server and BlueXP will use the approved certificate. 
 
-.. Select *Cancel* to end the discovery process without verifying the certificate. You can select *Cancel* if you receive an error message notifying you that the StorageGRID management certificate needs to be updated. To update a certificate, see link:../task-manage-certificates.html[Manage certificates].
+.. Select *Cancel* to end the discovery process without verifying the certificate. You can select *Cancel* if you receive an error message notifying you that the StorageGRID management certificate needs to be updated. To update a certificate, see 
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-manage-certificates.html[Manage certificates^].
 
 .Result
 
