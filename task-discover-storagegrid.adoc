@@ -55,7 +55,7 @@ image:screenshot-bluexp-approve-certificate.png[A screenshot that shows the Appr
 . Optionally, select *Copy Certificate* to copy the details of the certificate. You can use the certificate details to perform additional validation if desired.
 
 . Do one of the following: 
-.. Select *Accept Certificate* to use the certificate. 
+.. Select *Approve Certificate* to use the certificate. 
 +
 A success message appears. All communication between the StorageGRID server and BlueXP will use the approved certificate. 
 

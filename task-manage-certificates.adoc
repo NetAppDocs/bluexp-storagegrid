@@ -13,7 +13,7 @@ summary: Since certificates can expire, you occasionally might need to view the 
 :imagesdir: ./media/
 
 [.lead]
-Management Interface certificates are required for connection between BlueXP and StorageGRID. Since certificates can expire, you occasionally might need to view the status or update a certificate.
+Management Interface certificates approved by the user are required for secure connection between BlueXP and StorageGRID. Since certificates can expire, you occasionally might need to view the status or update a certificate.
 
 == View the management inferface certificate status
 .Steps
@@ -22,7 +22,7 @@ Management Interface certificates are required for connection between BlueXP and
 
 . On the Canvas page, select the StorageGRID working environment.
 
-. From the standard view, check the certificate status at the bottom of the _Information_ pane on the right side of the page. 
+. From the standard view, check the status of the user approved certificate at the bottom of the _Information_ pane on the right side of the page. The certificate status is refreshed once every 24 hours.
 +
 image:screenshot-standard-view-information.png[A screenshot of the of the Information pane in the working environment.]
 //what will it say if it is not valid? 
@@ -44,4 +44,4 @@ image:screenshot-update-certificate.png[A screenshot of the of the Information p
 . Select *Update certificate*.
 +
 image:screenshot-bluexp-approve-certificate.png[A screenshot that shows the Approve Certificate screen that appears during discovery of a StorageGRID system]
-. On the _Approve certificate_ page, select *Accept Certificate* to use the updated certificate.
+. On the _Approve certificate_ page, select *Approve Certificate* to use the updated certificate.
