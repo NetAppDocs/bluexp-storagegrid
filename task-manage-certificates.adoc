@@ -22,10 +22,11 @@ Management Interface certificates approved by the user are required for secure c
 
 . On the Canvas page, select the StorageGRID working environment.
 
-. From the standard view, check the status of the user approved certificate at the bottom of the _Information_ pane on the right side of the page. The certificate status is refreshed once every 24 hours.
+. From the standard view, check the status of the user approved certificate at the bottom of the _Information_ pane on the right side of the page. 
++
+NOTE: The certificate status is refreshed once every 24 hours.
 +
 image:screenshot-standard-view-information.png[A screenshot of the of the Information pane in the working environment.]
-//what will it say if it is not valid? 
 
 == Update the management interface certificate
 
