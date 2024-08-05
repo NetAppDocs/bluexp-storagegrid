@@ -52,7 +52,7 @@ image:screenshot-cluster-details.png[A screenshot that shows the StorageGRID Clu
 image:screenshot-bluexp-approve-certificate.png[A screenshot that shows the Approve Certificate screen that appears during discovery of a StorageGRID system]
 +
 [id=use-a-different-certificate,"Use a different certificate"]
-.  If you want to use a different certificate than the one displayed, you must first configure it on your StorageGRID system.
+. If you want to use a different certificate than the one displayed, you must first configure it on your StorageGRID system.
 .. In your on-premises StorageGRID system, follow the instructions: https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate[Installing a management interface certificate on StorageGRID^].
 
 .. After configuring the certificate in the StorageGRID system, select *Cancel* on the _Approve certificate_ page in BlueXP.
