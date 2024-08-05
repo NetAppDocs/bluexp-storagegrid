@@ -44,5 +44,7 @@ If the status of your management interface certificate is not valid or you recei
 image:screenshot-update-certificate.png[A screenshot of the of the update menu.]
 . Select *Update certificate*.
 +
+NOTE: You can also update the certificate using the more options icon (the icon with three vertical dots) in the Standard view.
++
 image:screenshot-bluexp-approve-certificate.png[A screenshot that shows the Approve Certificate screen that appears during discovery of a StorageGRID system]
 . On the _Approve certificate_ page, select *Approve Certificate* to use the updated certificate.
