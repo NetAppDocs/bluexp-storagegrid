@@ -27,6 +27,10 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html[Learn m
 
 * Admin credentials for the admin node.
 
+* A management interface certificate installed on your StorageGRID system. 
++
+https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate[Learn more about installing a management interface certificate on StorageGRID^]
+
 .Steps
 
 . From the BlueXP navigation menu, select *Storage > Canvas*.
@@ -39,9 +43,30 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html[Learn m
 +
 Refer to the link above for more details.
 
-. On the _StorageGRID Cluster Details_ page, enter the domain name or IP address of the admin node, the credentials for the node, and then select *Add*.
+. On the _StorageGRID Cluster Details_ page in BlueXP, enter the domain name or IP address of the admin node, the credentials for the node, and then select *Add*.
 +
 image:screenshot-cluster-details.png[A screenshot that shows the StorageGRID Cluster Details page where you enter the domain name or IP address of the admin node and the credentials.]
+
+. BlueXP automatically retrieves the StorageGRID management interface certificate. On the _Approve certificate_ page, review the certificate details.
++
+image:screenshot-bluexp-approve-certificate.png[A screenshot that shows the Approve Certificate screen that appears during discovery of a StorageGRID system]
++
+[#Step7]
+. If you want to use a different certificate than the one displayed, you must first configure it on your StorageGRID system.
+.. In your on-premises StorageGRID system, follow the instructions: https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate[Installing a management interface certificate on StorageGRID^].
+
+.. After configuring the certificate in the StorageGRID system, select *Cancel* on the _Approve certificate_ page in BlueXP.
+
+.. On the _StorageGRID Cluster Details_ page, select *Add*.
+
+. Optionally, select *Copy Certificate* to copy the details of the certificate. You can use the certificate details to perform additional validation if desired.
+
+. Do one of the following: 
+.. Select *Approve Certificate* to use the certificate. 
++
+A success message appears. All communication between the StorageGRID server and the BlueXP connector will be secured by verifying the approved certificate.
+
+.. Select *Cancel* to end the discovery process without verifying the certificate. For example, you can select *Cancel* if you receive an error message notifying you that the StorageGRID management certificate needs to be updated. To update a certificate, go to <<Step 7>>.
 
 .Result
 
