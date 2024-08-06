@@ -70,6 +70,11 @@ BlueXP doesn't currently support the Tenant Manager. Although you can create new
 * Link cost
 * NMS entities
 
+| BlueXP help menu
+
+| 
+Change password
+
 |===
 
 == Switch to the advanced view
@@ -92,7 +97,7 @@ image:advanced-view-menu.png[A screenshot of a StorageGRID working environment w
 +
 All of the same help options are available from this menu, except for the API documentation link.
 
-. If needed, select *Switch to standard view* to return to standard management through BlueXP.
+. If needed, select Switch to standard view to return to standard view through BlueXP.
 +
 image:screenshot-standard-view.png[A screenshot of a StorageGRID working environment that shows the Switch to Standard View option.]
 
