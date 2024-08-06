@@ -5,16 +5,17 @@ settings:
     pdf_enabled: true
   prod:
     pdf_enabled: true
-    # Remove this comment and uncomment the harmony_enabled line immediately before initial publishing
-    # harmony_enabled: true
+    harmony_enabled: true
 sidebar:
   entries:
     - title: StorageGRID docs
       url: /index.html
     - title: Release notes
       entries:
-        - title: What's new
+        - title: What's new 
           url: /whats-new.html
+        - title: Known issues
+          url: /reference-known-issues.html
     - title: Get started
       entries:
         - title: Discover StorageGRID systems
@@ -23,6 +24,10 @@ sidebar:
       entries:
         - title: View your StorageGRID systems
           url: /task-view-storagegrid.html
+        - title: Manage certificates
+          url: /task-manage-certificates.html
+        - title: Administer StorageGRID using the advanced view
+          url: task-administer-storagegrid.html
         - title: Use NetApp data services with StorageGRID
           url: /task-enable-data-services.html
         - title: Remove a working environment
