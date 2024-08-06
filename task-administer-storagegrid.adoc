@@ -32,6 +32,7 @@ The following Grid Manager operations are not available from BlueXP. If you need
 | 
 * Sign out link
 * API documentation link
+* Change password
 
 | Nodes
 | 
@@ -70,10 +71,6 @@ BlueXP doesn't currently support the Tenant Manager. Although you can create new
 * Link cost
 * NMS entities
 
-| BlueXP help menu
-
-| 
-Change password
 
 |===
 
