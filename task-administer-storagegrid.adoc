@@ -1,0 +1,103 @@
+---
+sidebar: sidebar
+permalink: task-administer-storagegrid.html
+keywords: grid manager, advanced view, standard view, use grid manager, gridmanager
+summary: Administer a StorageGRID system from BlueXP by using the advanced view. This view enables you to use Grid Manager from within the StorageGRID working environment.
+---
+
+= Administer StorageGRID using the advanced view
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Administer a StorageGRID system from BlueXP by using the advanced view. This view enables you to use Grid Manager from within the StorageGRID working environment.
+
+== Supported configurations
+
+Grid Manager is available in BlueXP starting with StorageGRID 11.8.
+
+== Limitations
+
+The following Grid Manager operations are not available from BlueXP. If you need to perform these operations, sign in to the Grid Manager directly.
+
+[cols="1a,2a" options=header] 
+|===
+| Grid Manager menu
+| Operations not available from BlueXP
+
+| User
+| 
+* Sign out link
+* API documentation link
+* Change password
+
+| Nodes
+| 
+* You can't access SANtricity System Manager from the Nodes > SANtricity System Manager tab. 
+* When viewing alerts, you might not be able to select all links in the recommended actions. For example, links that go to unsupported Grid Manager pages will not work.
+
+| Tenants
+| You can't sign in to a tenant account from the Create a tenant wizard or from the Tenants page.
+
+BlueXP doesn't currently support the Tenant Manager. Although you can create new tenant accounts from BlueXP, tenant users can't sign into their accounts from BlueXP.
+
+| ILM
+| Storage grades link
+
+| Configuration
+| 
+* Grid passwords
+* Traffic classification > Metrics
+* Security settings > Browser inactivity timeout
+* Single sign-on 
+* SNMP agent > MIB file for BMC interface
+
+| Maintenance
+
+| 
+* Recovery Package
+* Software update
+
+| Support
+
+| 
+* Grid topology
+* Logs
+* Metrics, including all links to Prometheus metrics and Grafana dashboards from other places in the UI.
+* All options for legacy alarms
+* Link cost
+* NMS entities
+
+
+|===
+
+== Switch to the advanced view
+
+Open a StorageGRID working environment and select the advanced view option.
+
+.Steps
+
+. From the Canvas page, open the StorageGRID working environment.
+
+. In the top-right, select *Switch to Advanced View*.
++
+image:screenshot-advanced-view.png[A screenshot of a StorageGRID working environment that shows the Switch to Advanced View option.]
+
+. Use Grid Manager to manage the StorageGRID system.
++
+One difference that you should be aware of is that the Help menu in Grid Manager has been replaced by the following menu:
++
+image:advanced-view-menu.png[A screenshot of a StorageGRID working environment where an action menu is available from the top right of the screen.]
++
+All of the same help options are available from this menu, except for the API documentation link.
+
+. If needed, select Switch to standard view to return to standard view through BlueXP.
++
+image:screenshot-standard-view.png[A screenshot of a StorageGRID working environment that shows the Switch to Standard View option.]
+
+== Get help with Grid Manager
+
+If you need help using Grid Manager, refer to https://docs.netapp.com/us-en/storagegrid-118/admin/index.html[StorageGRID documentation^] for step-by-step instructions.
