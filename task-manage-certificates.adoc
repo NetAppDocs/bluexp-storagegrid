@@ -5,7 +5,7 @@ keywords: storagegrid, certificate, manage, manage interface certificate, refres
 summary: Since certificates can expire, you occasionally might need to view the status or update a certificate.
 ---
 
-= Manage certificates in BlueXP
+= View and update StorageGRID certificates in BlueXP
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,9 +13,12 @@ summary: Since certificates can expire, you occasionally might need to view the 
 :imagesdir: ./media/
 
 [.lead]
-Management Interface certificates approved by the user are required for secure connection between BlueXP and StorageGRID. Since certificates can expire, you occasionally might need to view the status or update a certificate.
+A management interface certificate is required on your StorageGRID system before you discover the system from BlueXP. The certificate provides a secure connection between BlueXP and StorageGRID. Since certificates can expire, you occasionally might need to view the status or update a certificate.
 
-== View the management inferface certificate status
+== View the status of a management interface certificate
+
+View the status of the management interface certificate for a StorageGRID system to verify that the certificate is still valid.
+
 .Steps
 
 . From the navigation menu, select *Storage > Canvas*.
@@ -33,18 +36,19 @@ image:screenshot-standard-view-information.png[A screenshot of the of the Inform
 If the status of your management interface certificate is not valid or you receive a notification that your certificate has expired, you will need to update it so BlueXP can connect to StorageGRID. 
 
 .Steps
+
 . Go to your on-premises Grid Manager in StorageGRID and follow the instructions for https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate[Installing a management interface certificate on StorageGRID].
 
-. In the Blue XP navigation menu, select *Storage > Canvas*.
+. From the BlueXP navigation menu, select *Storage > Canvas*.
 
 . On the Canvas page, select the StorageGRID working environment.
 
-. Select the more options icon (circle with three vertical dots). 
+. Select the more options icon (circle with three vertical dots).
 +
 image:screenshot-update-certificate.png[A screenshot of the of the update menu.]
+
 . Select *Update certificate*.
-+
-NOTE: You can also update the certificate using the more options icon (the icon with three vertical dots) in the Standard view.
+
+. On the _Approve certificate_ page, select *Approve Certificate* to use the updated certificate.
 +
 image:screenshot-bluexp-approve-certificate.png[A screenshot that shows the Approve Certificate screen that appears during discovery of a StorageGRID system]
-. On the _Approve certificate_ page, select *Approve Certificate* to use the updated certificate.
