@@ -5,7 +5,7 @@ keywords: storagegrid, certificate, manage, manage interface certificate, refres
 summary: Since certificates can expire, you occasionally might need to view the status or update a certificate.
 ---
 
-= Manage certificates in BlueXP
+= View and update StorageGRID certificates in BlueXP
 :hardbreaks:
 :nofooter:
 :icons: font

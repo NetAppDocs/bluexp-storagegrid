@@ -66,7 +66,11 @@ image:screenshot-bluexp-approve-certificate.png[A screenshot that shows the Appr
 +
 A success message appears. All communication between the StorageGRID server and the BlueXP connector will be secured by verifying the approved certificate.
 
-.. Select *Cancel* to end the discovery process without verifying the certificate. For example, you can select *Cancel* if you receive an error message notifying you that the StorageGRID management certificate needs to be updated. To update a certificate, go to <<use-a-different-certificate, Use a different certificate>>.
+.. Select *Cancel* to end the discovery process without verifying the certificate. 
++
+For example, you can select *Cancel* if you receive an error message notifying you that the StorageGRID management certificate needs to be updated. 
++
+To update a certificate, go to your StorageGRID system, update the certificate, and then restart the discovery process from BlueXP.
 
 .Result
 
