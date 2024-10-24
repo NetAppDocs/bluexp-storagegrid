@@ -19,7 +19,11 @@ Discover the StorageGRID systems in your on-premises environment and then manage
 
 You need the following:
 
-* A Connector installed in a cloud provider or on your premises, with network connectivity to the StorageGRID system.
+* A fresh installation of the Connector using version 3.9.43 or later.
+
+* Network connectivity from the Connector to the StorageGRID system.
++
+The Connector can reside in the cloud or on-premises. It just needs a network connection to the StorageGRID system.
 +
 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html[Learn more about Connectors and how to create one^]
 
