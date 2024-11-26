@@ -2,7 +2,7 @@
 :linkattrs:
 :imagesdir: ../media/
 === New advanced view
-Starting with StorageGRID 11.8, you can use the familiar Grid Manager interface to manage your StorageGRID system from BlueXP .
+Starting with StorageGRID 11.8, you can use the familiar Grid Manager interface to manage your StorageGRID system from BlueXP.
 
 https://docs.netapp.com/us-en/bluexp-storagegrid/task-administer-storagegrid.html[Learn how to administer StorageGRID using the advanced view].
 
