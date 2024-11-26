@@ -1,3 +1,6 @@
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
 === New advanced view
 Starting with StorageGRID 11.8, you can use the familiar Grid Manager interface to manage your StorageGRID system from BlueXP.
 
