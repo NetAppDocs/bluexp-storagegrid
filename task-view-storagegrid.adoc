@@ -15,6 +15,13 @@ summary: After you discover your StorageGRID systems, you can view details about
 [.lead]
 After you discover your StorageGRID systems, you can view details about capacity distribution and the associated alerts, nodes, and tenants.
 
+[NOTE]
+=====
+*Supported roles:* Organization admin, Folder or project admin, Storage admin, or Storage viewer
+link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html[Learn about BlueXP access roles^.]
+=====
+
+
 .Steps
 
 . From the navigation menu, select *Storage > Canvas*.

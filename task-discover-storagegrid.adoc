@@ -19,13 +19,13 @@ Discover the StorageGRID systems in your on-premises environment and then manage
 
 You need the following:
 
-* A fresh installation of the Connector using version 3.9.43 or later.
-
-* Network connectivity from the Connector to the StorageGRID system.
+* A Connector using version 3.9.43 or later. You must have the Org admin role to install a Connector.
 +
 The Connector can reside in the cloud or on-premises. It just needs a network connection to the StorageGRID system.
 +
 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html[Learn more about Connectors and how to create one^]
+
+* You must have one of the following BlueXP access roles: Org admin, Folder or project admin or Storage admin role to discover a StorageGRID system. [Learn about BlueXP access roles^.]
 
 * The domain name or IP address of the admin node.
 

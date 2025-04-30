@@ -19,6 +19,13 @@ A management interface certificate is required on your StorageGRID system before
 
 View the status of the management interface certificate for a StorageGRID system to verify that the certificate is still valid.
 
+[NOTE]
+=====
+*Supported roles:* Organization admin, Folder or project admin, Storage admin, or Storage viewer
+link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html[Learn about BlueXP access roles^.]
+=====
+
+
 .Steps
 
 . From the navigation menu, select *Storage > Canvas*.
