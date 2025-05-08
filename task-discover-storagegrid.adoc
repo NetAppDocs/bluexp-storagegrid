@@ -15,6 +15,12 @@ summary: Discover the StorageGRID systems in your on-premises environment and th
 [.lead]
 Discover the StorageGRID systems in your on-premises environment and then manage them directly from BlueXP using Grid Manager.
 
+[NOTE]
+=====
+*Supported BlueXP roles:* Organization admin, Folder or project admin, Storage admin, and System health specialist
+link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html[Learn about BlueXP access roles^.]
+=====
+
 .Before you begin
 
 You need the following:
@@ -25,7 +31,6 @@ The Connector can reside in the cloud or on-premises. It just needs a network co
 +
 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html[Learn more about Connectors and how to create one^]
 
-* You must have one of the following BlueXP access roles: Org admin, Folder or project admin or Storage admin role to discover a StorageGRID system. [Learn about BlueXP access roles^.]
 
 * The domain name or IP address of the admin node.
 

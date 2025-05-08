@@ -17,7 +17,7 @@ After you discover your StorageGRID systems, you can view details about capacity
 
 [NOTE]
 =====
-*Supported roles:* Organization admin, Folder or project admin, Storage admin, or Storage viewer
+*Supported BlueXP roles:* Organization admin, Folder or project admin, Storage admin, or System health specialist
 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html[Learn about BlueXP access roles^.]
 =====
 

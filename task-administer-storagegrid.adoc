@@ -17,7 +17,7 @@ Administer a StorageGRID system from BlueXP by using the advanced view. This vie
 
 [NOTE]
 =====
-*Supported roles:* Organization admin, Folder or project admin, or Storage admin
+*Supported BlueXP roles:* Organization admin, Folder or project admin, Storage admin, and System health specialist
 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html[Learn about BlueXP access roles^.]
 =====
 

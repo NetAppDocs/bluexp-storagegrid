@@ -1,2 +1,2 @@
 === BLueXP access roles needed
-You now need one of the following access roles to view, discover or manage StorageGRID in BlueXP: Org admin, Folder or project admin, Storage admin, or Storage viewer. link:https://docs.netapp.com/us-en/bluexp/reference-iam-predefined-roles.html[Learn about BlueXP access roles.^]
+You now need one of the following access roles to view, discover or manage StorageGRID in BlueXP: Org admin, Folder or project admin, Storage admin, Storage health specialist, or Storage viewer. link:https://docs.netapp.com/us-en/bluexp/reference-iam-predefined-roles.html[Learn about BlueXP access roles.^]
