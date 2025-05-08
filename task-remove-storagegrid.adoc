@@ -15,11 +15,8 @@ summary: Remove a StorageGRID working environment if you no longer want to manag
 [.lead]
 Remove a StorageGRID working environment if you no longer want to manage it from BlueXP.
 
-[NOTE]
-=====
-*Supported BlueXP roles:* Organization admin, Folder or project admin, or Storage admin
-link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html[Learn about BlueXP access roles^.]
-=====
+.Required BlueXP role:
+Organization admin, Folder or project admin, or Storage admin. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html[Learn about BlueXP access roles.^]
 
 
 Removing the working environment doesn't affect the StorageGRID system. You can rediscover it from BlueXP at any time.

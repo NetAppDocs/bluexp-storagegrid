@@ -15,11 +15,8 @@ summary: Since certificates can expire, you occasionally might need to view the 
 [.lead]
 A management interface certificate is required on your StorageGRID system before you discover the system from BlueXP. The certificate provides a secure connection between BlueXP and StorageGRID. Since certificates can expire, you occasionally might need to view the status or update a certificate.
 
-[NOTE]
-=====
-*Supported BlueXP roles:* Organization admin, Folder or project admin, or Storage admin
-link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html[Learn about BlueXP access roles^.]
-=====
+.Required BlueXP role:
+Organization admin, Folder or project admin, or Storage admin. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html[Learn about BlueXP access roles.^]
 
 == View the status of a management interface certificate
 
