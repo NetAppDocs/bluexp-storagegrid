@@ -22,7 +22,7 @@ Organization admin, Folder or project admin, Storage admin, or System health spe
 
 You need the following:
 
-* A Connector using version 3.9.43 or later. You must have the Org admin role to install a Connector.
+* A Connector using version 3.9.43 or later. You must have the Organization admin role to install a Connector.
 +
 The Connector can reside in the cloud or on-premises. It just needs a network connection to the StorageGRID system.
 +
