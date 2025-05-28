@@ -22,11 +22,9 @@ Organization admin, Folder or project admin, Storage admin, or System health spe
 
 You need the following:
 
-* A Connector using version 3.9.43 or later. You must have the Organization admin role to install a Connector.
-+
-The Connector can reside in the cloud or on-premises. It just needs a network connection to the StorageGRID system.
-+
-https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html[Learn more about Connectors and how to create one^]
+* A Connector using version 3.9.43 or later. You must have the Organization admin role to install a Connector. If you don't know if your organization has a Connector, or if you need one created, contact your BlueXP administrator. https://review.docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator[Contact your Organization admin.^]
+
+
 
 
 * The domain name or IP address of the admin node.
@@ -39,7 +37,7 @@ https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-ce
 
 .Steps
 
-. From the BlueXP navigation menu, select *Storage > Canvas*.
+. From the navigation menu, select *Storage > Canvas*.
 
 . Select *Add Working Environment* and select *On-Premises*.
 
