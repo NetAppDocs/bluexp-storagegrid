@@ -5,7 +5,7 @@ keywords: grid manager, advanced view, standard view, use grid manager, gridmana
 summary: Administer a StorageGRID system from BlueXP by using the advanced view. This view enables you to use Grid Manager from within the StorageGRID working environment.
 ---
 
-= Administer StorageGRID using the advanced view
+= Administer StorageGRID using the Grid Manager in BlueXP
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -14,6 +14,9 @@ summary: Administer a StorageGRID system from BlueXP by using the advanced view.
 
 [.lead]
 Administer a StorageGRID system from BlueXP by using the advanced view. This view enables you to use Grid Manager from within the StorageGRID working environment.
+
+.Required BlueXP role:
+Organization admin, Folder or project admin, Storage admin, or System health specialist. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html[Learn about BlueXP access roles.^]
 
 == Supported configurations
 
